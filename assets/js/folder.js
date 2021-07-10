@@ -14,3 +14,7 @@ switch(theDay){
         document.write('<br>Can this week over</br>');
 
 }
+
+function show_alert() {
+    alert('Hello! I am an alert box!')
+}
