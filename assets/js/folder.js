@@ -46,3 +46,7 @@ function breakText() {
     alert("I will berak this text here"+'\n'+"because I want to do this here!")
 }
 
+// button specific alert massege
+function myAlert(txt) {
+    alert(txt).style.color ='red'
+}
