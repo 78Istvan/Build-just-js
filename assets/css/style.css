@@ -1,3 +1,98 @@
 h1 {
     color: red;
+    text-align: center;
+    text-decoration: dotted;
 }
+
+#alert {
+        margin: 10px;
+        background-color:#44c767;
+        border-radius:28px;
+        border:1px solid #18ab29;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:16px 31px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #2f6627;
+    }
+    #alert:hover {
+        background-color:#5cbf2a;
+    }
+    #alert:active {
+        position:relative;
+        top:1px;
+    }
+    
+#prompt {
+        margin: 10px;
+        background-color:#c123de;
+        border-radius:28px;
+        border:1px solid #a511c0;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:16px 31px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #9b14b3;
+    }
+    #prompt:hover {
+        background-color:#a20dbd;
+    }
+    #prompt:active {
+        position:relative;
+        top:1px;
+    }
+#confirm {
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:28px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+#confirm:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+#confirm:active {
+	position:relative;
+	top:1px;
+}
+
+#break-text {
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	background-color:#3d94f6;
+	border-radius:28px;
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+}
+#break-text:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+#break-text:active {
+	position:relative;
+	top:1px;
+}
+
+        
+
+    
