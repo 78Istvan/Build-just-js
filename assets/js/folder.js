@@ -81,3 +81,19 @@ document.write("<br />");
 for (i = 1; i <= 6; i++) {
     document.write('<h' + i + '>This is a heading' + i + '</h' + i + '>');
 }
+
+//the while loop 
+var i = 0;
+while(i <= 5); {
+    document.write('the number is' + i);
+    document.write('<br>')
+    i++;
+}
+
+//do while loop 
+var i = 0;
+do {
+    document.write('the number is' + i +'<br>');
+    i++
+}
+while(i <= 5);
