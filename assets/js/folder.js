@@ -1,6 +1,15 @@
 var d = new Date();
 theDay = d.getDay();
 switch(theDay){
+    case 1:
+        document.write('<br>This is a boring Monday again</br>');
+        break;
+    case 2:
+        document.write('<br>Slowley but we getting there with this Tuesday</br>');  
+        break;  
+    case 3:
+        document.write('<br>Wednesday is the half way of the week');
+        break;
     case 5:
         ducument.write('<br>Finally Friday</br>');
         break;
@@ -49,4 +58,26 @@ function breakText() {
 // button specific alert massege
 function myAlert(txt) {
     alert(txt).style.color ='red'
+}
+let x 
+if (x == null) {
+   can = 'pecs'
+   document.write(can);
+}
+//for loop
+var i = 0;
+for (var i = 0; i <= 5; i++ ) {
+   
+}
+document.getElementById('number').innerHTML = 'The number is' + ' ' + i;
+
+var i=3;
+for (i; i >= -5; i-=2)
+{document.write("The number is " + i);
+document.write("<br />");
+}
+
+//write text with for loop
+for (i = 1; i <= 6; i++) {
+    document.write('<h' + i + '>This is a heading' + i + '</h' + i + '>');
 }
